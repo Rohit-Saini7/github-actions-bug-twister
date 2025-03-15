@@ -1,9 +1,9 @@
-name: GEmini API Call
+name: Gemini API Call
 
 on:
   schedule:
     # - cron: '0 10 * * *' # Runs at 10 AM UTC
-    - cron: '*/1 * * * *' # Runs every minute
+    - cron: '*/5 * * * *' # Runs every minute
 
 jobs:
   call-GEMINI:
